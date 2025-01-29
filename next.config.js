@@ -1,37 +1,31 @@
-const isProd = process.env.NODE_ENV === 'production'
-/*
- * Gets the BASE_PATH from the command used to start this app.
- * If BASE_PATH is specified but it does not start with a "/" 
- * then add it. 
- * https://stackoverflow.com/questions/60452054/nextjs-deploy-to-a-specific-url-path
- */
-function getBasePath() {
-  var basePath = undefined
-
-  if (isProd && process.env.BASE_PATH) {
-    if (process.env.BASE_PATH.startsWith("/")) {
-      basePath = process.env.BASE_PATH;
-    } else {
-      basePath = "/" + process.env.BASE_PATH;
-    }
-  }
-  return basePath
-}
-
-const basePath = getBasePath()
-console.warn(
-  // "Are you publishing to <username>.github.io ? then [basePath] should be empty.\n" +
-  // "Are you publishing to <username>.github.io/<repository> ? then [basePath] should be /<repository>.\n" +
-  `P.S. [basePath] is {${basePath}}`
-)
+/** @type {import('next').NextConfig} */
+const isGitHubPages = process.env.GITHUB_ACTIONS || false;
+const repoName = "your-repo-name"; // 🔹 Replace with your actual GitHub repo name
 
 const nextConfig = {
   reactStrictMode: true,
-  basePath: basePath,
-  assetPrefix: basePath,
-  publicRuntimeConfig: {
-    basePath: basePath,
-  },
-}
 
-module.exports = nextConfig
+  // Fix asset and static file paths for GitHub Pages
+  basePath: isGitHubPages ? `/${repoName}` : "",
+  assetPrefix: isGitHubPages ? `/${repoName}/` : "",
+
+  // Ensure static exports work properly
+  trailingSlash: true,
+
+  // Fix Next.js images for GitHub Pages
+  images: {
+    unoptimized: true, // Disable image optimization (GitHub Pages does not support it)
+  },
+
+  // Fix server-side only modules in the frontend
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      config.resolve.fallback = {
+        fs: false,
+      };
+    }
+    return config;
+  },
+};
+
+module.exports = nextConfig;
