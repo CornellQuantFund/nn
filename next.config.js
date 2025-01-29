@@ -1,13 +1,13 @@
 /** @type {import('next').NextConfig} */
 const isGitHubPages = process.env.GITHUB_ACTIONS || false;
-const repoName = "nn/out"; // Change this to your actual GitHub repo name
+const repoName = "nn"; // Change this to your actual GitHub repo name
 
 const nextConfig = {
   reactStrictMode: true,
 
   // Fix paths for GitHub Pages deployment
   basePath: isGitHubPages ? `/${repoName}` : "",
-  assetPrefix: isGitHubPages ? `/${repoName}/` : "",
+  assetPrefix: isGitHubPages ? `/${repoName}/out` : "",
 
   // Ensure static exports work properly
   trailingSlash: true,
