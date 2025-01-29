@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const isGitHubPages = process.env.GITHUB_ACTIONS || false;
-const repoName = "your-repo-name"; // 🔹 Replace with your actual GitHub repo name
+const repoName = "CornellQuantFund/nn"; // 🔹 Replace with your actual GitHub repo name
 
 const nextConfig = {
   reactStrictMode: true,
