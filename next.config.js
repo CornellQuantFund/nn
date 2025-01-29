@@ -7,7 +7,7 @@ const nextConfig = {
 
   // Fix paths for GitHub Pages deployment
   basePath: isGitHubPages ? `/${repoName}` : "",
-  assetPrefix: isGitHubPages ? `/${repoName}/out` : "",
+  assetPrefix: isGitHubPages ? `/${repoName}` : "",
 
   // Ensure static exports work properly
   trailingSlash: true,
