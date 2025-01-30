@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const isGitHubPages = process.env.GITHUB_ACTIONS || false;
-const repoName = "nn"; // Change this to your actual GitHub repo name
+const repoName = "tradinglectures"; // Change this to your actual GitHub repo name
 
 const nextConfig = {
   reactStrictMode: true,
