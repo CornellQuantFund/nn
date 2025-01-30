@@ -1,4 +1,5 @@
 import profile from './profile.png';
+import logo from './profile_new.png';
 import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
 
@@ -128,7 +129,7 @@ export const contact = {
     },
     {
       title: "Slack Channel",
-      link: "https://topmate.io/hashirshoaeb",
+      link: "https://cornellquantfund.org/",
       isPrimary: false,
     },
   ]
@@ -139,7 +140,7 @@ export const SEO = {
   // 50 - 60 char  
   title: "CQF | Trading Lectures",
   description: "An oppportunity to learn more about quantitative finance and trading from Cornell Quant Fund.",
-  image: profile.src,
+  image: logo.src,
 }
 
 export const links = {
