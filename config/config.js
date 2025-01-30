@@ -1,6 +1,7 @@
 import profile from './profile.png';
 import logo from './profile_new.png';
-import { faAppStore, faGithub, faGooglePlay, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import linkedIn from './linkedIn.png';
+import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
@@ -58,7 +59,7 @@ export const work = {
       description: "Junior studying Math.",
       icons: [
           {
-            icon: faLinkedIn,
+            icon: linkedIn,
             link: "https://www.linkedin.com/in/aryaan-jena-332a00251/",
           }],
     },
@@ -67,7 +68,7 @@ export const work = {
       description: "Junior studying ORIE.",
       icons: [
           {
-            icon: faLinkedIn,
+            icon: linkedIn,
             link: "https://www.linkedin.com/in/aryaan-jena-332a00251/",
           }],
     }
