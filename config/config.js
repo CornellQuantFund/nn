@@ -27,7 +27,6 @@ export const intro = {
   title: "Welcome to CQF's Trading Lecture Series",
   description: "An opportunity to learn more about quantitative finance.",
   image: profile.src,
-  image: profile.src,
   buttons: [
     {
       title: "Contact Us",
