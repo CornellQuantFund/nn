@@ -137,8 +137,8 @@ export const contact = {
 // SEARCH ENGINE 
 export const SEO = {
   // 50 - 60 char  
-  title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
-  description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
+  title: "CQF | Trading Lectures",
+  description: "An oppportunity to learn more about quantitative finance and trading from Cornell Quant Fund.",
   image: profile.src,
 }
 
