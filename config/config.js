@@ -59,7 +59,7 @@ export const work = {
       description: "Junior studying Math.",
       icons: [
           {
-            icon: linkedIn,
+            icon: linkedIn.src,
             link: "https://www.linkedin.com/in/aryaan-jena-332a00251/",
           }],
     },
@@ -68,7 +68,7 @@ export const work = {
       description: "Junior studying ORIE.",
       icons: [
           {
-            icon: linkedIn,
+            icon: linkedIn.src,
             link: "https://www.linkedin.com/in/aryaan-jena-332a00251/",
           }],
     }
