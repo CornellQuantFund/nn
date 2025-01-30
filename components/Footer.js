@@ -35,10 +35,10 @@ export const Footer = () => {
 		<footer className="bg-secondary text-center py-2 px-5">
 			<div className="container text-muted">
 				<small>&copy; 2025 {" "}
-					<Link href="https://github.com/cornellquantfund">
+					<Link href="https://cornellquantfund.org/">
 						<a>cornellquantfund</a>
 					</Link>
-					This organization is a registered student organization of Cornell University.
+					 & This organization is a registered student organization of Cornell University.
 				</small>
 			</div>
 		</footer>
