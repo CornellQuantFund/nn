@@ -35,9 +35,6 @@ export const Projects = ({ title, cards }) => {
 							icons={value.icons} />
 					))}
 				</div>
-				{/* <div className="text-center">
-					<button type="button" className="btn btn-outline-light">See More</button>
-				</div> */}
 			</div>
 		</div>
 	);
