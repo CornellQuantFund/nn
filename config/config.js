@@ -60,7 +60,7 @@ export const work = {
           {
             icon: faLinkedIn,
             link: "https://www.linkedin.com/in/aryaan-jena-332a00251/",
-          },
+          }],
     },
     {
       title: "Olu Ogundare",
@@ -69,7 +69,7 @@ export const work = {
           {
             icon: faLinkedIn,
             link: "https://www.linkedin.com/in/aryaan-jena-332a00251/",
-          },
+          }],
     }
   ],
 }
