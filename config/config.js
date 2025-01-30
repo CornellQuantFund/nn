@@ -44,7 +44,7 @@ export const intro = {
 export const about = {
   title: "What is this course",
   description: [
-    "Cornell Quant Fund (CQF) is Cornell University’s premier student-run quantitative finance organization, dedicated to educating and equipping students with the skills needed to excel in the world of quantitative finance."
+    "Cornell Quant Fund (CQF) is Cornell University’s premier student-run quantitative finance organization, dedicated to educating and equipping students with the skills needed to excel in the world of quantitative finance.",
     "This Trading Lecture Series is designed to provide a structured introduction to quantitative finance and trading.",
   ],
 }
