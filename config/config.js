@@ -66,7 +66,7 @@ export const work = {
 }
 
 export const projects = {
-    title: "LECTURES",
+    title: "Lectures",
     cards: [
       {
         title: "L1: Intro to Financial Markets + Market Microstructure",
@@ -114,7 +114,7 @@ export const projects = {
         ],
       },
     ],
-  };
+  }
 
 
 export const contact = {
