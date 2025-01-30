@@ -10,7 +10,7 @@ export const navigation = {
       link: "#about",
     },
     {
-      title: "Projects",
+      title: "Lectures",
       link: "#projects",
     },
     {
@@ -21,24 +21,21 @@ export const navigation = {
       title: "Links",
       link: "/links",
     },
-    {
-      title: "Blog",
-      link: "https://medium.com/@hashirshoaeb",
-    }
   ],
 }
 export const intro = {
-  title: "Hey, I'm Hashir",
-  description: "A Computer Engineer creating mobile apps and static websites.",
+  title: "Welcome to CQF's Trading Lecture Series",
+  description: "An opportunity to learn more about quantitative finance.",
+  image: profile.src,
   image: profile.src,
   buttons: [
     {
-      title: "Contact Me",
+      title: "Contact Us",
       link: "#contact",
       isPrimary: true,
     },
     {
-      title: "Resume",
+      title: "Syllabus",
       link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
       isPrimary: false,
     },
@@ -46,7 +43,7 @@ export const intro = {
 }
 
 export const about = {
-  title: "Who I am",
+  title: "What is this course",
   description: [
     "I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
     "The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
@@ -55,16 +52,16 @@ export const about = {
 }
 
 export const work = {
-  title: "What I do",
+  title: "Instructors",
   cards: [
     {
-      title: "Mobile App Development",
-      description: "I create pixel perfect iOS and Andriod apps using Flutter.",
+      title: "Aryaan Jena",
+      description: "Junior studying Math.",
       icons: null,
     },
     {
-      title: "Web Development",
-      description: "I create responsive static websites using Reactjs.",
+      title: "Olu Ogundare",
+      description: "Junior studying ORIE.",
       icons: null,
     }
   ],
@@ -119,8 +116,8 @@ export const contact = {
   description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
   buttons: [
     {
-      title: "Email Me",
-      link: "mailto:hashirshoaeb@gmail.com",
+      title: "Email Us",
+      link: "mailto:cornellquantfund@gmail.com",
       isPrimary: true,
     },
     {
@@ -141,28 +138,24 @@ export const SEO = {
 
 export const links = {
   image: profile.src,
-  title: "@hashirshoaeb",
-  description: "Computer Engineer | Flutter | Reactjs Developer",
+  title: "@cornellquantfund",
+  description: "A community of financial innovation",
   cards: [
     {
-      title: "My website",
-      link: "https://hashirshoaeb.com/",
+      title: "Website",
+      link: "https://cornellquantfund.org/",
     },
     {
-      title: "QuranTalk App",
-      link: "https://www.qurantalk.app/",
+      title: "Instagram",
+      link: "https://www.instagram.com/cornellquantfund/",
     },
     {
-      title: "StarBook App",
-      link: "https://starbook.dev/",
+      title: "LinkedIn",
+      link: "https://www.linkedin.com/company/cornell-quant-fund/",
     },
     {
-      title: "My GitHub",
-      link: "https://github.com/hashirshoaeb/",
-    },
-    {
-      title: "My LinkedIn",
-      link: "https://www.linkedin.com/in/hashirshoaeb/",
+      title: "GitHub",
+      link: "https://github.com/CornellQuantFund/",
     },
   ]
 }
