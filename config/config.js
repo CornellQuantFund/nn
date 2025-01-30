@@ -3,14 +3,14 @@ import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-  name: "CQF TLS 101",
+  name: "Hashir",
   links: [
     {
       title: "About",
       link: "#about",
     },
     {
-      title: "Lectures",
+      title: "Projects",
       link: "#projects",
     },
     {
@@ -22,24 +22,23 @@ export const navigation = {
       link: "/links",
     },
     {
-      title: "Website",
-      link: "https://cornellquantfund.org/",
+      title: "Blog",
+      link: "https://medium.com/@hashirshoaeb",
     }
   ],
 }
-
 export const intro = {
-  title: "Welcome to CQF Trading 101",
-  description: "An opportunity to learn about quantitative finance and trading.",
+  title: "Hey, I'm Hashir",
+  description: "A Computer Engineer creating mobile apps and static websites.",
   image: profile.src,
   buttons: [
     {
-      title: "Contact Us",
+      title: "Contact Me",
       link: "#contact",
       isPrimary: true,
     },
     {
-      title: "Syllabus",
+      title: "Resume",
       link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
       isPrimary: false,
     },
@@ -47,64 +46,86 @@ export const intro = {
 }
 
 export const about = {
-  title: "What is Trading 101",
+  title: "Who I am",
   description: [
-    "Cornell Quant Fund (CQF) is Cornell University’s premier student-run quantitative finance organization, dedicated to educating and equipping students with the skills needed to excel in the world of quantitative trading and investment management. Through hands-on experience, rigorous research, and real-world applications, CQF bridges the gap between academia and industry.",
-    "Breaking into trading—especially quantitative trading—is notoriously difficult. The industry is highly competitive, requiring a strong foundation in mathematics, statistics, programming, and financial markets. Without structured guidance, it can be overwhelming to navigate the complexity of trading strategies, market dynamics, and the technical skills demanded by top firms.",
-    "This Trading Lecture Series is designed to provide a structured introduction to quantitative trading, breaking down its core concepts and methodologies. Throughout the series, we will cover the fundamentals of quantitative trading and dive into two crucial subfields: Statistical Arbitrage and Market Making. These areas are essential for understanding how firms leverage data, probability, and execution strategies to generate alpha in financial markets.",
-    "Whether you are new to trading or looking to refine your quantitative skills, this series will offer valuable insights and practical knowledge to help you navigate this challenging yet rewarding field."
+    "I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
+    "The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
+    "When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
   ],
 }
 
 export const work = {
-  title: "What You Will Learn",
+  title: "What I do",
   cards: [
     {
-      title: "Statistical Arbitrage",
-      description: "Understanding how to identify mispriced assets using mathematical models and data-driven strategies.",
+      title: "Mobile App Development",
+      description: "I create pixel perfect iOS and Andriod apps using Flutter.",
       icons: null,
     },
     {
-      title: "Market Making",
-      description: "Learn how traders provide liquidity and optimize trade execution to capture profits.",
+      title: "Web Development",
+      description: "I create responsive static websites using Reactjs.",
       icons: null,
     }
   ],
 }
 
 export const projects = {
-  title: "Lecture Topics",
+  title: "Projects",
   cards: [
     {
-      title: "Introduction to Quant Trading",
-      description: "An overview of quantitative finance, its applications, and key players in the industry.",
-      icons: []
+      title: "StarBook",
+      description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+      icons: [
+        {
+          icon: faAppStore,
+          link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
+        },
+        {
+          icon: faGithub,
+          link: "https://github.com/hashirshoaeb/star_book",
+        },
+      ]
     },
     {
-      title: "Statistical Arbitrage",
-      description: "Deep dive into mean reversion strategies and how to systematically trade mispriced assets.",
-      icons: []
+      title: "QuranTalk",
+      description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
+      icons: [
+        {
+          icon: faAppStore,
+          link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
+        },
+        {
+          icon: faGooglePlay,
+          link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
+        },
+      ]
     },
     {
-      title: "Market Making",
-      description: "Understanding how market makers profit, manage inventory, and optimize spreads.",
-      icons: []
+      title: "Portfolio",
+      description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
+      icons: [
+        {
+          icon: faGithub,
+          link: "https://github.com/hashirshoaeb/portfolio",
+        },
+      ]
     },
   ],
 }
 
 export const contact = {
-  title: "Get in Touch",
-  description: "Interested in learning more? Feel free to reach out or schedule a meeting to discuss how you can get involved.",
+  title: "Get in touch",
+  description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
   buttons: [
     {
-      title: "Email Us",
-      link: "mailto:contact@cornellquantfund.org",
+      title: "Email Me",
+      link: "mailto:hashirshoaeb@gmail.com",
       isPrimary: true,
     },
     {
       title: "Schedule Meeting",
-      link: "https://topmate.io/cqf",
+      link: "https://topmate.io/hashirshoaeb",
       isPrimary: false,
     },
   ]
@@ -112,31 +133,36 @@ export const contact = {
 
 // SEARCH ENGINE 
 export const SEO = {
-  title: "Cornell Quant Fund | Trading 101",
-  description: "We are CQF, Cornell's premier quantitative finance organization. We help foster a space of financial innovation and stay on the cutting edge of investment technology. This semester we are bringing to campus a lecture series to talk about quantitative trading to help people start a career in quant.",
+  // 50 - 60 char  
+  title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
+  description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
   image: profile.src,
 }
 
 export const links = {
   image: profile.src,
-  title: "Cornell Quant Fund",
-  description: "Premier Quantitative Finance Organization at Cornell",
+  title: "@hashirshoaeb",
+  description: "Computer Engineer | Flutter | Reactjs Developer",
   cards: [
     {
-      title: "CQF Website",
-      link: "https://cornellquantfund.org/",
+      title: "My website",
+      link: "https://hashirshoaeb.com/",
     },
     {
-      title: "Trading 101 Syllabus",
-      link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+      title: "QuranTalk App",
+      link: "https://www.qurantalk.app/",
     },
     {
-      title: "LinkedIn",
-      link: "https://www.linkedin.com/company/cornellquantfund/",
+      title: "StarBook App",
+      link: "https://starbook.dev/",
     },
     {
-      title: "GitHub",
-      link: "https://github.com/CornellQuantFund/",
+      title: "My GitHub",
+      link: "https://github.com/hashirshoaeb/",
+    },
+    {
+      title: "My LinkedIn",
+      link: "https://www.linkedin.com/in/hashirshoaeb/",
     },
   ]
 }
