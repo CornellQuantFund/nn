@@ -18,9 +18,9 @@
 // $inverted-font: #FFFFFF;
 
 // bootstrap overrides 
-$primary: #365B6D;
-$secondary: #F7F7F7;
-$light: #FFFFFF;
+$primary: #A13D63;   // Deep reddish-purple (dominant color in the logo)
+$secondary: #703F7D; // Muted purple/magenta (secondary background tone)
+$light: #E0B4D5;     // Soft pastel pink/lavender (lighter accents)
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
 $font-family-sans-serif: -apple-system, 'Barlow', sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
