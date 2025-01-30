@@ -66,10 +66,10 @@ export const work = {
 }
 
 export const projects = {
-    title: "Lectures",
+    title: "LECTURES",
     cards: [
       {
-        title: "Intro to Financial Markets + Market Microstructure",
+        title: "L1: Intro to Financial Markets + Market Microstructure",
         icons: [
           {
             icon: faGithub,
@@ -78,7 +78,7 @@ export const projects = {
         ],
       },
       {
-        title: "Systematic Equities",
+        title: "L2: Systematic Equities",
         icons: [
           {
             icon: faGithub,
@@ -87,7 +87,7 @@ export const projects = {
         ],
       },
       {
-        title: "Intro to Options",
+        title: "L3: Intro to Options",
         icons: [
           {
             icon: faGithub,
@@ -96,7 +96,7 @@ export const projects = {
         ],
       },
       {
-        title: "Delta, Options Pricing, Start of Greeks",
+        title: "L4: Delta, Options Pricing, Start of Greeks",
         icons: [
           {
             icon: faGithub,
@@ -105,7 +105,7 @@ export const projects = {
         ],
       },
       {
-        title: "Greeks and Sample Trade Sequence",
+        title: "L5: Greeks and Sample Trade Sequence",
         icons: [
           {
             icon: faGithub,
