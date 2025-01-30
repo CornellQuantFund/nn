@@ -38,7 +38,7 @@ export const Footer = () => {
 					<Link href="https://cornellquantfund.org/">
 						<a>cornellquantfund</a>
 					</Link>
-					   This organization is a registered student organization of Cornell University.
+					   .This organization is a registered student organization of Cornell University.
 				</small>
 			</div>
 		</footer>
