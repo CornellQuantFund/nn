@@ -35,7 +35,7 @@ export const intro = {
     },
     {
       title: "Syllabus",
-      link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+      link: "https://docs.google.com/document/d/1IaqLt9jOphFIQoZz8Klf5vHD9WN3bMEAazCId9srhic/edit?usp=sharing",
       isPrimary: false,
     },
   ],
@@ -44,9 +44,8 @@ export const intro = {
 export const about = {
   title: "What is this course",
   description: [
-    "I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-    "The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-    "When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
+    "Cornell Quant Fund (CQF) is Cornell University’s premier student-run quantitative finance organization, dedicated to educating and equipping students with the skills needed to excel in the world of quantitative finance."
+    "This Trading Lecture Series is designed to provide a structured introduction to quantitative finance and trading.",
   ],
 }
 
@@ -67,60 +66,68 @@ export const work = {
 }
 
 export const projects = {
-  title: "Projects",
-  cards: [
-    {
-      title: "StarBook",
-      description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
-      icons: [
-        {
-          icon: faAppStore,
-          link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
-        },
-        {
-          icon: faGithub,
-          link: "https://github.com/hashirshoaeb/star_book",
-        },
-      ]
-    },
-    {
-      title: "QuranTalk",
-      description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
-      icons: [
-        {
-          icon: faAppStore,
-          link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
-        },
-        {
-          icon: faGooglePlay,
-          link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
-        },
-      ]
-    },
-    {
-      title: "Portfolio",
-      description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
-      icons: [
-        {
-          icon: faGithub,
-          link: "https://github.com/hashirshoaeb/portfolio",
-        },
-      ]
-    },
-  ],
-}
+    title: "Lectures",
+    cards: [
+      {
+        title: "Intro to Financial Markets + Market Microstructure",
+        icons: [
+          {
+            icon: faGithub,
+            link: "#",
+          },
+        ],
+      },
+      {
+        title: "Systematic Equities",
+        icons: [
+          {
+            icon: faGithub,
+            link: "#",
+          },
+        ],
+      },
+      {
+        title: "Intro to Options",
+        icons: [
+          {
+            icon: faGithub,
+            link: "#",
+          },
+        ],
+      },
+      {
+        title: "Delta, Options Pricing, Start of Greeks",
+        icons: [
+          {
+            icon: faGithub,
+            link: "#",
+          },
+        ],
+      },
+      {
+        title: "Greeks and Sample Trade Sequence",
+        icons: [
+          {
+            icon: faGithub,
+            link: "#",
+          },
+        ],
+      },
+    ],
+  };
+
 
 export const contact = {
   title: "Get in touch",
-  description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
+  description: "Feel free to email us below.",
   buttons: [
     {
-      title: "Email Us",
+      title: "Email",
       link: "mailto:cornellquantfund@gmail.com",
       isPrimary: true,
     },
     {
-      title: "Schedule Meeting",
+      title: "Slack Channel",
       link: "https://topmate.io/hashirshoaeb",
       isPrimary: false,
     },
