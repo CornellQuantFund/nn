@@ -57,17 +57,20 @@ export const work = {
     {
       title: "Aryaan Jena",
       description: "Junior studying Math.",
-      icon: faLinkedin,
-      link: "https://www.linkedin.com/in/aryaan-jena-332a00251/",
+      icons: [
+         {
+             icon: faLinkedin,
+             link: "https://www.linkedin.com/in/aryaan-jena-332a00251/",
+           }],
     },
     {
       title: "Olu Ogundare",
       description: "Junior studying ORIE.",
-      // icons: [
-      //     {
-      //       icon: linkedIn.src,
-      //       link: "https://www.linkedin.com/in/aryaan-jena-332a00251/",
-      //     }],
+      icons: [
+         {
+             icon: faLinkedin,
+             link: "https://www.linkedin.com/in/aryaan-jena-332a00251/",
+           }],
     }
   ],
 }
