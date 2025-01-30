@@ -1,7 +1,7 @@
 import profile from './profile.png';
 import logo from './profile_new.png';
 import linkedIn from './linkedIn.png';
-import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
+import { faAppStore, faGithub, faGooglePlay, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
@@ -57,8 +57,8 @@ export const work = {
     {
       title: "Aryaan Jena",
       description: "Junior studying Math.",
-      // icon: linkedIn.src,
-      // link: "https://www.linkedin.com/in/aryaan-jena-332a00251/",
+      icon: faLinkedin,
+      link: "https://www.linkedin.com/in/aryaan-jena-332a00251/",
     },
     {
       title: "Olu Ogundare",
