@@ -31,8 +31,8 @@ export const intro = {
   image: profile.src,
   buttons: [
     {
-      title: "Contact Us",
-      link: "#contact",
+      title: "Apply",
+      link: "https://docs.google.com/forms/d/e/1FAIpQLSfQ3SSBtLf4CK3e4GRwTK8MMiQdGJASn5hg1ELoLlbywNMjlg/viewform?usp=header",
       isPrimary: true,
     },
     {
@@ -76,52 +76,52 @@ export const work = {
 }
 
 export const projects = {
-    title: "Lectures",
+    title: "Lectures (Tentative)",
     cards: [
       {
         title: "L1: Intro to Financial Markets + Market Microstructure",
-        icons: [
-          {
-            icon: faGithub,
-            link: "#",
-          },
-        ],
+        // icons: [
+        //   {
+        //     icon: faGithub,
+        //     link: "#",
+        //   },
+        // ],
       },
       {
         title: "L2: Systematic Equities",
-        icons: [
-          {
-            icon: faGithub,
-            link: "#",
-          },
-        ],
+        // icons: [
+        //   {
+        //     icon: faGithub,
+        //     link: "#",
+        //   },
+        // ],
       },
       {
         title: "L3: Intro to Options",
-        icons: [
-          {
-            icon: faGithub,
-            link: "#",
-          },
-        ],
+        // icons: [
+        //   {
+        //     icon: faGithub,
+        //     link: "#",
+        //   },
+        // ],
       },
       {
         title: "L4: Delta, Options Pricing, Start of Greeks",
-        icons: [
-          {
-            icon: faGithub,
-            link: "#",
-          },
-        ],
+        // icons: [
+        //   {
+        //     icon: faGithub,
+        //     link: "#",
+        //   },
+        // ],
       },
       {
         title: "L5: Greeks and Sample Trade Sequence",
-        icons: [
-          {
-            icon: faGithub,
-            link: "#",
-          },
-        ],
+        // icons: [
+        //   {
+        //     icon: faGithub,
+        //     link: "#",
+        //   },
+        // ],
       },
     ],
   }
