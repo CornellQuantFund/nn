@@ -137,7 +137,7 @@ export const contact = {
       isPrimary: true,
     },
     {
-      title: "Slack Channel",
+      title: "Website",
       link: "https://cornellquantfund.org/",
       isPrimary: false,
     },
