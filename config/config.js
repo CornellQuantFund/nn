@@ -37,7 +37,7 @@ export const intro = {
     },
     {
       title: "Syllabus",
-      link: "https://docs.google.com/document/d/1IaqLt9jOphFIQoZz8Klf5vHD9WN3bMEAazCId9srhic/edit?usp=sharing",
+      link: "https://drive.google.com/file/d/1wicLsmmR_N0WKvxT-eqVPdkVILYjmXPb/view?usp=sharing",
       isPrimary: false,
     },
   ],
