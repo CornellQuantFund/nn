@@ -56,7 +56,7 @@ export const work = {
   cards: [
     {
       title: "Aryaan Jena",
-      description: "Junior studying Math.",
+      description: "Junior studying Math. Incoming trader at IMC.",
       icons: [
          {
              icon: faLinkedin,
@@ -65,7 +65,7 @@ export const work = {
     },
     {
       title: "Olu Ogundare",
-      description: "Junior studying ORIE.",
+      description: "Junior studying ORIE. Incoming trader at Citadel.",
       icons: [
          {
              icon: faLinkedin,
